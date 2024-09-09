@@ -21,7 +21,7 @@ body{
 
 /* #color palette */
 :root {
-  --block-1: #3161E0;
+  --block-1: #2b5eea;
   --block-2: #590054;
   --block-3: #720137;
   --block-4: #5e0009;
@@ -29,12 +29,6 @@ body{
   --block-6: #a2005c;
 }
 /* end #color palette */
-
-/* debug region */
-/* .debug * {
-  border: 3px dashed rgb(255, 255, 255);
-} */
-/* end debug region */
 
 /* Header */
 .bg {
@@ -92,7 +86,8 @@ a{
 /* Main */
 /* First section */
 .bg-1 {
-  background-color: var(--block-2);
+  background-image: url(../assets/images/jumbo.png);
+  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -100,7 +95,41 @@ a{
 .rectangle {
   height: 350px;
   width: 60%;
-  background-color: var(--block-3);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+p{
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.bt-1, .bt-2{
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    vertical-align: middle;
+    border: none;
+    font-weight: 500;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bt-2{
+    background-color: black;
+    color: white;
 }
 /* end First section */
 
