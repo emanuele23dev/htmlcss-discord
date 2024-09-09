@@ -59,7 +59,7 @@ img {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a {
+.link-h {
   color: white;
   text-decoration: none;
   padding-left: 20px;
@@ -233,32 +233,29 @@ h1.move-r7 {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.img-5{
-    width: 100%;
+.img-5 {
+  width: 100%;
 }
 
-.stars{
-    width: 480px;
+.stars {
+  width: 480px;
 }
 
-h2{
-    text-align: center;
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight:bolder;
-    vertical-align: middle;
+h2 {
+  text-align: center;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  vertical-align: middle;
 }
 
-.bt-3{
+.bt-3 {
   border-radius: 35px;
   padding: 10px 15px 10px 15px;
   border: none;
-  font-weight: 500;
   font-weight: bold;
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   background-color: var(--block-6);
   color: white;
 }
@@ -274,101 +271,107 @@ footer {
 /* footer top  */
 .first-d,
 .second-d {
-  height: 500px;
-  margin-top: 30px;
+  height: 430px;
+  margin-top: 50px;
 }
 
 .first-d {
   width: 20%;
 }
 
-.title-f{
-    text-align: left;
-    color: var(--block-6);
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.title-f {
+  text-align: left;
+  color: var(--block-6);
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.img-ita{
-    height: 15px;
-    margin-top: 25px;
+.img-ita {
+  height: 15px;
+  margin-top: 25px;
 }
 
-span{
-    color: white;
-    margin-left: 10px;
-    text-align: center;
-    font-size: 15px;
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+span {
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.fb{
-    height: 20px;
-    margin-top: 20px;
+.fb {
+  height: 20px;
+  margin-top: 20px;
 }
 
-.insta{
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 10px;
+.insta {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
-.x{
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 15px;
+.x {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
-.yt{
-     height: 20px;
-    margin-top: 20px;
-    margin-left: 15px;
+.yt {
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
 .second-d {
   width: 10%;
-  background-color: var(--block-6);
-  border: 2px dashed yellow;
+  color: var(--block-6);
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sotto-m {
+  color: white;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: left;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
 /* end footer top  */
 
 /* footer bottom  */
 .color-w {
-  color: white;
-  margin-top: 40px;
+  border-bottom: 0.5px solid var(--block-6);
   margin-bottom: 25px;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 .bg-fb {
-  background-color: var(--block-4);
-  height: 70px;
   width: 70%;
+  margin-bottom: 70px;
 }
 
-.flex-container2 {
+.flex-container3 {
   display: flex;
   justify-content: space-between;
   align-content: center;
   align-items: center;
 }
 
-.logo-f {
-  background-color: white;
-  border: 1px dashed black;
-  height: 30px;
-  width: 60px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 30px;
-  font-weight: 500;
-}
-
 .bottone-f {
-  border: 1px dashed black;
-  height: 30px;
-  width: 60px;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 500;
+  border-radius: 35px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: var(--block-6);
+  color: white;
 }
 /* end footer bottom */
 /* end footer */
