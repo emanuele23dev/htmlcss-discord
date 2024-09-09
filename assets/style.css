@@ -104,10 +104,10 @@ h1{
 
 p{
   font-size: 20px;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .bt-1, .bt-2{
@@ -153,11 +153,6 @@ p{
     text-align: left;
     padding-left: 60px;
 }
-
-p.move-r{
-    font-size: 15px;
-    font-weight: 500;
-}
 /* end Second section */
 
 /* third section */
@@ -190,29 +185,33 @@ p.move-r{
     vertical-align: middle;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
-p.move-l{
-    font-size: 19px;
-}
 /* end third section */
 
 /* fourth section */
 .bg-4 {
-  background-color: var(--block-4);
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .rectangle6 {
+  padding-top: 60px;
   height: 500px;
   width: 40%;
-  background-color: var(--block-1);
 }
 
 .rectangle7 {
   height: 500px;
   width: 30%;
-  background-color: var(--block-2);
+}
+
+.move-r7{
+    text-align: left;
+    padding-left: 60px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1.move-r7{
+    margin-top: 80px;
 }
 /* end fourth section */
 
