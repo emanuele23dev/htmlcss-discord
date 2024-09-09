@@ -18,7 +18,7 @@ img {
 /* #color palette */
 :root {
   --block-1: #2b5eea;
-  --block-2: #590054;
+  --block-2: #f0f0f0;
   --block-3: #720137;
   --block-4: #5e0009;
   --block-5: #460002;
@@ -133,7 +133,6 @@ p{
 
 /* Second section */
 .bg-2 {
-  /* background-color: var(--block-5); */
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -154,6 +153,11 @@ p{
     text-align: left;
     padding-left: 60px;
 }
+
+p.move-r{
+    font-size: 15px;
+    font-weight: 500;
+}
 /* end Second section */
 
 /* third section */
@@ -165,7 +169,7 @@ p{
 }
 
 .bg-3 {
-  background-color: var(--block-6);
+  background-color: var(--block-2);
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -173,13 +177,22 @@ p{
 .rectangle4 {
   height: 500px;
   width: 40%;
-  background-color: var(--block-1);
 }
 
 .rectangle5 {
   height: 500px;
   width: 30%;
-  background-color: var(--block-2);
+}
+
+.move-l{
+    text-align: left;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p.move-l{
+    font-size: 19px;
 }
 /* end third section */
 
@@ -210,7 +223,7 @@ p{
   padding-bottom: 50px;
 }
 
-.rectangle8\ {
+.rectangle8 {
   height: 800px;
   width: 70%;
   background-color: var(--block-3);
