@@ -19,10 +19,10 @@ img {
 :root {
   --block-1: #2b5eea;
   --block-2: #f0f0f0;
-  --block-3: #720137;
+  --block-3: #1b1b1b;
   --block-4: #5e0009;
   --block-5: #460002;
-  --block-6: #a2005c;
+  --block-6: #da1d88;
 }
 /* end #color palette */
 
@@ -56,26 +56,26 @@ img {
 .space3 {
   text-align: right;
   padding-right: 10px;
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+a {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.bt-access{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-radius: 35px;
-    text-align: center;
-    padding: 10px 15px 10px 15px;
-    vertical-align: middle;
-    border: none;
-    font-weight: 500;
+.bt-access {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  padding: 10px 15px 10px 15px;
+  vertical-align: middle;
+  border: none;
+  font-weight: 500;
 }
 /* end Header */
 
@@ -94,40 +94,43 @@ a{
   color: white;
   text-align: center;
   vertical-align: middle;
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1{
+h1 {
   font-size: 50px;
   padding-top: 20px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-p{
+p {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.bt-1, .bt-2{
-    border-radius: 35px;
-    text-align: center;
-    padding: 10px 15px 10px 15px;
-    vertical-align: middle;
-    border: none;
-    font-weight: 500;
-    font-weight: bold;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.bt-1,
+.bt-2 {
+  border-radius: 35px;
+  text-align: center;
+  padding: 10px 15px 10px 15px;
+  vertical-align: middle;
+  border: none;
+  font-weight: 500;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.bt-2{
-    background-color: black;
-    color: white;
+.bt-2 {
+  background-color: black;
+  color: white;
 }
 /* end First section */
 
@@ -146,12 +149,12 @@ p{
   height: 500px;
   width: 30%;
   vertical-align: middle;
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.move-r{
-    text-align: left;
-    padding-left: 60px;
+.move-r {
+  text-align: left;
+  padding-left: 60px;
 }
 /* end Second section */
 
@@ -179,11 +182,11 @@ p{
   width: 30%;
 }
 
-.move-l{
-    text-align: left;
-    padding-left: 10px;
-    vertical-align: middle;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.move-l {
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: middle;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* end third section */
 
@@ -204,14 +207,14 @@ p{
   width: 30%;
 }
 
-.move-r7{
-    text-align: left;
-    padding-left: 60px;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.move-r7 {
+  text-align: left;
+  padding-left: 60px;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1.move-r7{
-    margin-top: 80px;
+h1.move-r7 {
+  margin-top: 80px;
 }
 /* end fourth section */
 
@@ -223,9 +226,41 @@ h1.move-r7{
 }
 
 .rectangle8 {
-  height: 800px;
+  height: 1000px;
   width: 70%;
-  background-color: var(--block-3);
+  text-align: center;
+  vertical-align: middle;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img-5{
+    width: 100%;
+}
+
+.stars{
+    width: 480px;
+}
+
+h2{
+    text-align: center;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bolder;
+    vertical-align: middle;
+}
+
+.bt-3{
+  border-radius: 35px;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  font-weight: 500;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: var(--block-6);
+  color: white;
 }
 /* end fifth section */
 /* end Main */
@@ -263,7 +298,7 @@ footer {
 }
 
 .bg-fb {
-  background-color: var(--block-3);
+  background-color: var(--block-4);
   height: 70px;
   width: 70%;
 }
