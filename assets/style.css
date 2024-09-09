@@ -17,7 +17,7 @@ img {
 
 /* #color palette */
 :root {
-  --block-1: #42002e;
+  --block-1: #3161E0;
   --block-2: #590054;
   --block-3: #720137;
   --block-4: #5e0009;
@@ -27,9 +27,9 @@ img {
 /* end #color palette */
 
 /* debug region */
-.debug * {
+/* .debug * {
   border: 3px dashed rgb(255, 255, 255);
-}
+} */
 /* end debug region */
 
 /* Header */
@@ -41,14 +41,14 @@ img {
 
 .space1,
 .space3 {
-  width: 10%;
+  width: 20%;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .space2 {
-  width: 30%;
+  width: 40%;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -62,6 +62,13 @@ img {
 .space3 {
   text-align: right;
   padding-right: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* end Header */
 
