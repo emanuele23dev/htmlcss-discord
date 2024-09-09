@@ -8,6 +8,10 @@ img {
   max-width: 100%;
 }
 
+body{
+
+}
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -62,6 +66,7 @@ img {
 .space3 {
   text-align: right;
   padding-right: 10px;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
 
 a{
@@ -69,6 +74,18 @@ a{
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+.bt-access{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    vertical-align: middle;
+    border: none;
+    font-weight: 500;
 }
 /* end Header */
 
