@@ -8,10 +8,6 @@ img {
   max-width: 100%;
 }
 
-body{
-
-}
-
 .flex-container {
   display: flex;
   justify-content: center;
@@ -110,6 +106,8 @@ p{
   font-size: 20px;
   padding-top: 50px;
   padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .bt-1, .bt-2{
@@ -135,21 +133,26 @@ p{
 
 /* Second section */
 .bg-2 {
-  background-color: var(--block-5);
-  padding-top: 50px;
+  /* background-color: var(--block-5); */
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
 .rectangle2 {
   height: 500px;
   width: 40%;
-  background-color: var(--block-1);
 }
 
 .rectangle3 {
   height: 500px;
   width: 30%;
-  background-color: var(--block-2);
+  vertical-align: middle;
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.move-r{
+    text-align: left;
+    padding-left: 60px;
 }
 /* end Second section */
 
@@ -167,13 +170,13 @@ p{
   padding-bottom: 50px;
 }
 
-.rectangle2 {
+.rectangle4 {
   height: 500px;
   width: 40%;
   background-color: var(--block-1);
 }
 
-.rectangle3 {
+.rectangle5 {
   height: 500px;
   width: 30%;
   background-color: var(--block-2);
@@ -187,13 +190,13 @@ p{
   padding-bottom: 50px;
 }
 
-.rectangle2 {
+.rectangle6 {
   height: 500px;
   width: 40%;
   background-color: var(--block-1);
 }
 
-.rectangle3 {
+.rectangle7 {
   height: 500px;
   width: 30%;
   background-color: var(--block-2);
@@ -207,7 +210,7 @@ p{
   padding-bottom: 50px;
 }
 
-.rectangle4 {
+.rectangle8\ {
   height: 800px;
   width: 70%;
   background-color: var(--block-3);
