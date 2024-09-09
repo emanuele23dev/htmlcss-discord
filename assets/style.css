@@ -267,7 +267,7 @@ h2{
 
 /* footer */
 footer {
-  background-color: var(--block-5);
+  background-color: var(--block-3);
   height: 100%;
 }
 
@@ -279,8 +279,49 @@ footer {
 }
 
 .first-d {
-  width: 30%;
-  background-color: var(--block-1);
+  width: 20%;
+}
+
+.title-f{
+    text-align: left;
+    color: var(--block-6);
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img-ita{
+    height: 15px;
+    margin-top: 25px;
+}
+
+span{
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fb{
+    height: 20px;
+    margin-top: 20px;
+}
+
+.insta{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.x{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.yt{
+     height: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
 
 .second-d {
